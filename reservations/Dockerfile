@@ -1,7 +1,7 @@
-FROM openjdk:17-jdk-slim as build
+FROM eclipse-temurin:17-jre
 
-COPY target/reservations-0.0.1-SNAPSHOT.jar reservations-0.0.1-SNAPSHOT.jar
+COPY target/msh-reservations-1.0.0-SNAPSHOT.jar msh-reservations-1.0.0-SNAPSHOT.jar
 
 EXPOSE 8082
 
-ENTRYPOINT [ "java", "-jar", "/reservations-0.0.1-SNAPSHOT.jar" ]
+ENTRYPOINT [ "java", "-jar", "/msh-reservations-1.0.0-SNAPSHOT.jar" ]

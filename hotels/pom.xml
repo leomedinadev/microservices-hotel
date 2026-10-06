@@ -8,10 +8,10 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.leodev.hotels</groupId>
-	<artifactId>hotels</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>hotels</name>
+	<groupId>ec.com.leodev.msh</groupId>
+	<artifactId>msh-hotels</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>msh-hotels</name>
 	<description>Microservices for Hotels</description>
 	<properties>
 		<java.version>17</java.version>

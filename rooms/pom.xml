@@ -8,10 +8,10 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.leodev.rooms</groupId>
-	<artifactId>rooms</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>rooms</name>
+	<groupId>ec.com.leodev.msh</groupId>
+	<artifactId>msh-rooms</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>msh-rooms</name>
 	<description>Microservices for Rooms</description>
 	<properties>
 		<java.version>17</java.version>

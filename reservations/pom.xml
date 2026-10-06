@@ -8,10 +8,10 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.aleal.reservations</groupId>
-	<artifactId>reservations</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>reservations</name>
+	<groupId>ec.com.leodev.msh</groupId>
+	<artifactId>msh-reservations</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>msh-reservations</name>
 	<description>Microservices for Reservations</description>
 	<properties>
 		<java.version>17</java.version>

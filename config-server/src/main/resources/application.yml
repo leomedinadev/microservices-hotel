@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/leo7medina/microservices-hotel
+          uri: ${CONFIG_GIT_URI:https://github.com/leomedinadev/microservices-hotel}
           #uri: file://${user.home}/config-repo
           clone-on-start: true
           default-label: main
