@@ -1,7 +1,7 @@
-FROM openjdk:17-jdk-slim as build
+FROM eclipse-temurin:17-jre
 
-COPY target/hotels-0.0.1-SNAPSHOT.jar hotels-0.0.1-SNAPSHOT.jar
+COPY target/msh-hotels-1.0.0-SNAPSHOT.jar msh-hotels-1.0.0-SNAPSHOT.jar
 
 EXPOSE 8080
 
-ENTRYPOINT [ "java", "-jar", "/hotels-0.0.1-SNAPSHOT.jar" ]
+ENTRYPOINT [ "java", "-jar", "/msh-hotels-1.0.0-SNAPSHOT.jar" ]

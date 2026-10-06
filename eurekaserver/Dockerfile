@@ -1,7 +1,7 @@
-FROM openjdk:17-jdk-slim as build
+FROM eclipse-temurin:17-jre
 
-COPY target/eurekaserver-0.0.1-SNAPSHOT.jar eurekaserver-0.0.1-SNAPSHOT.jar
+COPY target/msh-eurekaserver-1.0.0-SNAPSHOT.jar msh-eurekaserver-1.0.0-SNAPSHOT.jar
 
 EXPOSE 8065
 
-ENTRYPOINT [ "java", "-jar", "/eurekaserver-0.0.1-SNAPSHOT.jar" ]
+ENTRYPOINT [ "java", "-jar", "/msh-eurekaserver-1.0.0-SNAPSHOT.jar" ]

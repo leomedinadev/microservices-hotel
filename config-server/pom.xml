@@ -8,10 +8,10 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.leodev</groupId>
-	<artifactId>configserver</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>config-server</name>
+	<groupId>ec.com.leodev.msh</groupId>
+	<artifactId>msh-configserver</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>msh-configserver</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

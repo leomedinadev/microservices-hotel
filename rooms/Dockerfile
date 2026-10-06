@@ -1,7 +1,7 @@
-FROM openjdk:17-jdk-slim as build
+FROM eclipse-temurin:17-jre
 
-COPY target/rooms-0.0.1-SNAPSHOT.jar rooms-0.0.1-SNAPSHOT.jar
+COPY target/msh-rooms-1.0.0-SNAPSHOT.jar msh-rooms-1.0.0-SNAPSHOT.jar
 
 EXPOSE 8081
 
-ENTRYPOINT [ "java", "-jar", "/rooms-0.0.1-SNAPSHOT.jar" ]
+ENTRYPOINT [ "java", "-jar", "/msh-rooms-1.0.0-SNAPSHOT.jar" ]
